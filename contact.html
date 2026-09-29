@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - موقعي</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><i class="fa-solid fa-cube"></i> الشعار</a>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="portfolio.html">معرض الأعمال</a></li>
+            <li><a href="contact.html" class="active">تواصل معنا</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobileMenu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="page-banner">
+        <h1>تواصل معنا</h1>
+        <p>نحن هنا للرد على استفساراتك وبدء العمل على مشروعك القادم</p>
+    </div>
+
+    <section class="section">
+        <form class="contact-form" id="contactForm">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="الاسم الكامل" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة</button>
+            <p class="form-feedback" id="formFeedback"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 جميع الحقوق محفوظة.</p>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
